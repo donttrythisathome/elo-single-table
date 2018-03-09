@@ -1,0 +1,23 @@
+{
+    "name": "donttrythisathome/elo-single-table",
+    "description": "The package allows you to inherit Eloquent models from single database table",
+    "type": "library",
+    "keywords": ["eloquent", "single table", "laravel 5", "inheritance", "model"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Constantine Derkach",
+            "email": "koderkach@gmail.com",
+            "role":"Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "illuminate/support": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dtth\\EloSingleTable\\": "src/"
+        }
+    }
+}
